@@ -1,17 +1,16 @@
 package com.cs.jdk17;
 
-import com.cs.jdk17.changes.TextBlocks;
-
 import static com.cs.jdk17.changes.PatternMatchingForInstanceOf.printAllPatternMatchingForInstanceOf;
 import static com.cs.jdk17.changes.Records.printAllRecords;
 import static com.cs.jdk17.changes.SwitchExpressions.printAllSwitchExpressions;
+import static com.cs.jdk17.changes.TextBlocks.printAllTextBlocks;
 
 public class Main {
 
     public static void main(String[] args) {
 
         // 1 - Text blocks
-        TextBlocks.printAllTextBlocks();
+        printAllTextBlocks();
 
         // 2 - Switch expressions
         printAllSwitchExpressions();
